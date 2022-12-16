@@ -17,7 +17,7 @@ theme = 'hugo-theme-codex'
     name = "UzBek"
     url = "/"
 
-[[menu]]
+[[menu.main]]
     identifier = "blog"
     name = "blog"
     title = "Blogs"
