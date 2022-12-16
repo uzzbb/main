@@ -1,4 +1,25 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Main'
-theme = ''
+title = 'UzBek'
+theme = 'hugo-theme-codex'
+
+[params]
+  showPageTitleInTOC = true
+  twitter = "https://twitter.com/uzzbb"
+  github = "https://github.com/uzzbb"
+  youtube = "https://www.youtube.com/channel/UC56j8h5TAGb-16JI9JJKtHw"
+  linkedin = "https://linkedin.com/uzzbb"
+  # ...
+
+  iconOrder = ["Twitter", "GitHub", "YouTube", "LinkedIn"]
+
+[[menu.main]]
+    name = "UzBek"
+    url = "/"
+
+[[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    title = "Blog"
+    url = "/blog"
+
