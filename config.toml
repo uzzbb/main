@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://uzzbb.github.io/main/'
 languageCode = 'en-us'
 title = 'UzBek'
 theme = 'hugo-theme-codex'
